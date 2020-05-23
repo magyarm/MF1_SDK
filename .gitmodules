@@ -10,3 +10,6 @@
 [submodule "components/utils/cQueue"]
 	path = components/utils/cQueue
 	url = https://github.com/SMFSW/cQueue.git
+[submodule "components/kendryte_sdk/kendryte-freertos-sdk"]
+	path = components/kendryte_sdk/kendryte-freertos-sdk
+	url = git@github.com:kendryte/kendryte-freertos-sdk.git

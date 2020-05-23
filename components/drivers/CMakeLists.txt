@@ -61,6 +61,6 @@ if(CONFIG_ENABLE_SD_CARD)
     append_srcs_dir(ADD_SRCS "sd_card/src")
 endif()
 
-list(APPEND ADD_REQUIREMENTS kendryte_sdk)
+#list(APPEND ADD_REQUIREMENTS kendryte_sdk)
 
 register_component()
