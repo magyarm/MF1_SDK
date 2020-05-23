@@ -5,7 +5,7 @@ menu "Camera( Sensor ) configuration"
 
     config ENABLE_CAMERA
         bool "enable camera"
-        default y
+        default n
 
     choice CAMERA_TYPE
         depends on ENABLE_CAMERA

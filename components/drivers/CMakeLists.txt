@@ -63,4 +63,4 @@ endif()
 
 #list(APPEND ADD_REQUIREMENTS kendryte_sdk)
 
-register_component()
+#register_component()

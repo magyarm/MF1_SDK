@@ -19,11 +19,11 @@ menu "utils config"
 
     config ENABLE_JPEG_DECODE
         bool "enable jpeg decode"
-        default y
+        default n
 
     config ENABLE_JPEG_ENCODE
         bool "enable jpeg encode"
-        default y
+        default n
 
     # sd_card
     osource "${SDK_PATH}/components/utils/qrcode/Kconfig"

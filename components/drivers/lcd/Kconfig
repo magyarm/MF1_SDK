@@ -3,7 +3,7 @@ menu "LCD configuration"
 
     config ENABLE_LCD
         bool "enable lcd"
-        default y
+        default n
 
     choice LCD_TYPE
         depends on ENABLE_LCD
